@@ -41,9 +41,13 @@
  
  
  5、TaUtils 工具类
+ 加icon
  
  6、TaSimpleWebViewController 
- app内web页加载
+ app内web页加载。
+ 使用的控制器view上加UIWebView。
+ 
+ 
  
  */
 
