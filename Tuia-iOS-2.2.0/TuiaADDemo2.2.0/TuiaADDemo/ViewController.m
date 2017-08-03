@@ -40,9 +40,10 @@
  4.4 非标准广告位的曝光、点击主动方法
  
  
- 5、TaUtils
+ 5、TaUtils 工具类
  
- 
+ 6、TaSimpleWebViewController 
+ app内web页加载
  
  */
 
