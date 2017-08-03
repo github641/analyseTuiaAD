@@ -6,10 +6,52 @@
 //  Copyright © 2017年 dozening. All rights reserved.
 //
 
+/* lzy注170803：
+ 1、
+ sdk是.framework
+ 是静态库工程。还有一个资源bundle。
+ 有主头文件TaTm.h
+ 2、
+ TaStreamerView、TaScreenView、TaLaunchScreenView、TaInfoStreamerView、TaDriftView、TaBnView、TaAppWallView等广告形式都是继承TaBaseActivityView类。
+ 3、DZYLGIFImage、DZYLImageView是GIF加载三方类库https://github.com/liyong03/YLGIFImage
+ 
+ 4、TaTmHelper
+ 
+ 单例。
+ 
+ 4.1应用启动时，应用id：
+ [TaTmHelper setupWithAppKey:@"4JtqTFPyzESKzNiznbfV6r3qHASN"];
+ 
+ 4.2各广告形式初始化传入 广告位id。
+ 
+ 4.3 标准广告类型通用 通知：
+ [TaTmHelper displaySuccess:^(id resultObj) {
+ //
+ NSLog(@"曝光成功");
+ } displayFailed:^(id resultObj) {
+ //
+ NSLog(@"曝光失败");
+ } clickTm:^(id resultObj) {
+ //
+ NSLog(@"点击成功");
+ 
+ }];
+ 
+ 4.4 非标准广告位的曝光、点击主动方法
+ 
+ 
+ 5、TaUtils
+ 
+ 
+ 
+ */
+
 #import "ViewController.h"
 #import "BViewController.h"
 #import <TaTmSDK/TaTm.h>
-
+/* lzy注170803：
+ demo的布局使用的是Masonry（直译砖石结构，代码布局首选）
+ */
 #import "Masonry.h"
 
 @interface ViewController ()
