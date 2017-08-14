@@ -22,15 +22,15 @@
     
     [TaTmHelper setupWithAppKey:@"4JtqTFPyzESKzNiznbfV6r3qHASN"];
     
-    [TaLaunchScreenView showAdViewWithAdslotId:@"466" successBlock:^{
-        
-    } failedBlock:^{
-        NSLog(@"没有开屏广告");
-    } finishedBlock:^{
-        NSLog(@"展示完毕了");
-    } userCloseBlock:^{
-        NSLog(@"用户点击关闭了");
-    }];
+//    [TaLaunchScreenView showAdViewWithAdslotId:@"466" successBlock:^{
+//        
+//    } failedBlock:^{
+//        NSLog(@"没有开屏广告");
+//    } finishedBlock:^{
+//        NSLog(@"展示完毕了");
+//    } userCloseBlock:^{
+//        NSLog(@"用户点击关闭了");
+//    }];
 //    [TaTmHelper helper].closeLaunchADView = ^(){
 //        
 //    };

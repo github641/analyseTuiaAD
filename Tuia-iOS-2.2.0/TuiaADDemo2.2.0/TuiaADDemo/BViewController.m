@@ -46,7 +46,7 @@
     
     
    
-    mainView.backgroundColor = [self getColorWithHexString:@"4c4c4c"];
+//    mainView.backgroundColor = [self getColorWithHexString:@"4c4c4c"];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:mainView];
     switch (self.tag) {
