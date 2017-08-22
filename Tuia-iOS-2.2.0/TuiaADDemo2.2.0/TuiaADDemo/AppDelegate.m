@@ -20,7 +20,13 @@
     //28MLSNMkp88LYjjRbqSkzy2jxULg  测试
     //4JtqTFPyzESKzNiznbfV6r3qHASN   线上
     
-    [TaTmHelper setupWithAppKey:@"4JtqTFPyzESKzNiznbfV6r3qHASN"];
+    /* lzy注170821：补充、提取重点
+     约钱：
+     h4FMhRa9nNDu3jTT9NkDqhvNYnK
+     */
+    
+    
+    [TaTmHelper setupWithAppKey:@"h4FMhRa9nNDu3jTT9NkDqhvNYnK"];
     
 //    [TaLaunchScreenView showAdViewWithAdslotId:@"466" successBlock:^{
 //        
@@ -37,6 +43,10 @@
 //    [TaTmHelper helper].closeLaunchADView = ^(){
 //        
 //    };
+    
+    
+
+    
     return YES;
 }
 
